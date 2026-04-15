@@ -87,7 +87,7 @@ class RLConfigData:
     max_samples_per_frame: float = 20      # Moderate replay pressure for better adaptation without overtraining
 
     # Replay (PER with proportional priorities)
-    memory_size: int = 25_000_000
+    memory_size: int = 22_000_000
     priority_alpha: float = 0.7
     priority_beta_start: float = 0.4
     priority_beta_frames: int = 10_000_000
